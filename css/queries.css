@@ -1,0 +1,229 @@
+/* 1420 */
+@media (max-width: 88.81em) {
+  .items-name {
+    font-size: 3rem;
+    margin-top: 5rem;
+
+  }
+  .section-4-item-name {
+    font-size: 2rem;
+  }
+  .section-4-description-1 {
+    text-align: center;
+  }
+  .section-3-description-1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .section-2-description-1 {
+    font-size: 2rem;
+  }
+  .alert {
+    font-size: 2.4rem;
+  }
+  .section-2-skill-set {
+    font-size: 1.9rem;
+  }
+  h2 {
+    margin-bottom: 4rem;
+  }
+  .section-2 {
+    margin-bottom: 6rem;
+  }
+  .h2-items {
+    padding-top: 6rem;
+  }
+}
+
+/* 1050 */
+@media (max-width: 65.625em) {
+  .items-name {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+
+  }
+  .section-4-item-name {
+    font-size: 1.5rem;
+  }
+  .section-4-item-properties {
+    gap: 2rem;
+  }
+  .section-4-room-card {
+    font-size: 8rem;
+  }
+  .copyright {
+    font-size: 1.5rem;
+  }
+  .section-4-description-1 {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+  }
+  .section-3-description-1 {
+    font-size: 1.4rem;
+  }
+  .section-2-description-1 {
+    font-size: 1.4rem;
+  }
+  .alert {
+    font-size: 1.5rem;
+  }
+  .section-2-skill-set {
+    font-size: 1.6rem;
+  }
+  .cards-img {
+    height: 20rem;
+  }
+  .cards {
+    font-size: 1.5rem;
+  }
+  .section-3-rooms-name {
+    font-size: 2rem;
+  }
+  h2 {
+    margin-bottom: 3rem;
+  }
+  .section-2 {
+    margin-bottom: 5rem;
+  }
+  .h2-items {
+    padding-top: 5rem;
+  }
+}
+
+/* 860 */
+@media (max-width: 53.75em) {
+  .items-name {
+    font-size: 2rem;
+    margin-top: 3rem;
+
+  }
+  .section-4-item-name {
+    font-size: 1rem;
+  }
+  .section-4-item-properties {
+    gap: 1rem;
+  }
+  .section-4-room-card {
+    font-size: 7rem;
+  }
+  .copyright {
+    font-size: 1rem;
+  }
+  .alert {
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+  }
+  .visual-studio-code-logo {
+    height: 15rem;
+  }
+  
+  .coding-technologies-logos {
+    height: 17rem;
+  }
+  
+  .affinity-logo {
+    height: 17rem;
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+  .section-2 {
+    margin-bottom: 4rem;
+  }
+  .h2-items {
+    padding-top: 4rem;
+  }
+}
+
+/* 750 */
+@media (max-width: 46.875em) {
+  .section-2-skill-set {
+    font-size: 1.4rem;
+  }
+  .section-4-description-1 {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+  }
+  .section-3-description-1 {
+    font-size: 1.3rem;
+  }
+  .section-2-description-1 {
+    font-size: 1.3rem;
+  }
+  .section-4-room-card {
+    font-size: 6rem;
+  }
+  .items-name {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+
+  }
+  h2 {
+    margin-bottom: 1rem;
+  }
+  .section-2 {
+    margin-bottom: 3rem;
+  }
+  .h2-items {
+    padding-top: 3rem;
+  }
+}
+
+/* 666 */
+@media (max-width: 41.625em) {
+  .section-2-skill-set {
+    font-size: 1.4rem;
+  }
+  .section-4-description-1 {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+  .section-3-description-1 {
+    font-size: 0.9rem;
+  }
+  .section-2-description-1 {
+    font-size: 1rem;
+  }
+  .section-4-room-card {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  .section-4-item-properties {
+    gap: 0.5rem;
+  }
+  .section-4-item-name {
+    font-size: 0.7rem;
+  }
+  .visual-studio-code-logo {
+    height: 11rem;
+  }
+  
+  .coding-technologies-logos {
+    height: 13rem;
+  }
+  
+  .affinity-logo {
+    height: 13rem;
+  }
+  .section-2-skill-set {
+    font-size: 1rem;
+  }
+  .section-4-item-name {
+    font-size: 0.5rem;
+  }
+  .items-name {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+  }
+  .section-2 {
+    margin-bottom: 2rem;
+  }
+  .h2-items {
+    padding-top: 2rem;
+  }
+  /* .section-3-rooms-name {
+    font-size: 2rem;
+  } */
+}

@@ -1,0 +1,375 @@
+/* 
+PALETTE
+color: rgb(185, 185, 185)
+color: rgb(58, 58, 58);
+color: rgb(43, 43, 43);
+color: rgb(32, 32, 32);
+*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 3rem;
+  margin-left: 2rem;
+
+  font-size: 3rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-logo {
+  height: 5rem;
+}
+
+.header-left-title {
+  color: rgb(43, 43, 43);
+  letter-spacing: -0.05rem;
+  padding-top: 0.4rem;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 3rem;
+
+  transform: translate(0rem, 0.4rem);
+
+  list-style: none;
+
+  padding-right: 4rem;
+
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.header-nav-button {
+  padding: 0.5rem;
+
+  color: rgb(58, 58, 58);
+
+  text-decoration: none;
+}
+
+.header-nav-button:link,
+.header-nav-button:visited {
+  transition: 0.2s;
+  border-radius: 10px;
+}
+
+.header-nav-button:hover,
+.header-nav-button:active {
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+
+.section-1 {
+  max-width: 100%;
+  height: 59rem;
+
+  margin-bottom: 5rem;
+
+  background-image: url(../img/hero-mod1.png);
+  background-size: cover;
+}
+
+.section-1-cover {
+  height: 59rem;
+  background: linear-gradient(
+    to top,
+    rgba(113, 113, 113, 0.487) 10%,
+    rgba(127, 127, 127, 0),
+    rgb(254, 254, 254)
+  );
+}
+
+.section-2 {
+  margin: 10rem 7rem 8rem 7rem;
+
+  font-size: 2.5rem;
+  line-height: 6rem;
+}
+
+.alert {
+  color: rgb(43, 43, 43);
+  position: absolute;
+  top: 92%;
+  left: 69%;
+  transform: rotate(-14deg);
+
+  padding: 1rem 1rem 1rem 5rem;
+
+  background-color: yellow;
+
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.section-2-description-1 {
+  color: rgb(43, 43, 43);
+  margin-bottom: 5rem;
+}
+
+.section-2-highlights:hover {
+  text-shadow: 0px 0.6px 0px rgb(43, 43, 43);
+}
+
+.section-2-skill-set {
+  color: rgb(32, 32, 32);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+
+  border-bottom: 2px solid rgb(43, 43, 43);
+  margin-bottom: 3rem;
+
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.visual-studio-code-logo {
+  height: 18rem;
+}
+
+.coding-technologies-logos {
+  height: 20rem;
+}
+
+.affinity-logo {
+  height: 20rem;
+}
+
+.section-3-description-1 {
+  color: rgb(43, 43, 43);
+  height: 6rem;
+
+  margin: 0rem 7rem 3rem 8rem;
+
+  font-size: 2.5rem;
+  line-height: 6rem;
+}
+
+/* .section-3-rooms {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 8rem;
+
+  justify-items: center;
+  font-size: 3rem;
+} */
+
+/* .section-3-rooms-pic {
+  height: 25rem;
+  transition: 0.4s;
+  border-radius: 10px;
+} */
+
+/* .section-3-rooms-pic:hover {
+  opacity: 25%;
+} */
+
+.section-3-rooms-description {
+  color: rgb(32, 32, 32);
+  font-size: 2rem;
+}
+
+.section-3-rooms-name:hover {
+  opacity: 100%;
+}
+
+.section-3-rooms-container {
+  position: relative;
+}
+
+/* .section-3-rooms-description-list-first-line {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+} */
+
+/* .section-3-rooms-description-list-second-line {
+  margin-bottom: 5rem;
+} */
+
+.card-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards {
+  /* border-top: 1px solid black;
+  border-left: 1px solid black; */
+  font-size: 2rem;
+  position: relative;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.081);
+  padding-bottom: 2rem;
+  transition: 0.2s;
+}
+
+.cards:hover {
+  transform: translate(-0%, -5%);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.406);
+}
+
+.cards-img {
+  transition: 0.2s;
+  height: 30rem;
+  padding-bottom: 1rem;
+}
+
+.cards-img:hover {
+  opacity: 30%;
+}
+
+.cards-description {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  line-height: 3rem;
+  transition: 0.2s;
+  margin-bottom: 1.5rem;
+}
+
+.section-3-rooms-name {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 100%;
+  z-index: -1;
+  font-size: 3rem;
+}
+
+.h2-items {
+  padding-top: 9rem;
+  border-top: 2px solid black;
+  margin-right: 7.9rem;
+}
+
+.section-4-description-1 {
+  color: rgb(43, 43, 43);
+  height: 6rem;
+
+  margin: 0rem 7rem 9rem 8rem;
+
+  font-size: 2.5rem;
+  line-height: 6rem;
+}
+
+.section-4-items-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.item-pics {
+  width: 100%;
+  height: 100%;
+  transition: 0.2s;
+  position: relative;
+  background-size: 110%;
+}
+
+.section-4-item-name {
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 100%;
+  font-size: 3rem;
+  position: absolute;
+}
+
+.section-4-room-container {
+  position: relative;
+}
+
+
+.item-pics:hover {
+  opacity: 20%;
+}
+
+.section-4-items-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 1px solid rgb(43, 43, 43);
+  
+}
+
+.section-4-corridor-card {
+  background-image: url(../img/corridor.png);
+}
+
+.section-4-living-room-card {
+  background-image: url(../img/hero-mod1.png);
+}
+
+.section-4-kitchen-card {
+  background-image: url(../img/kitchen.png);
+}
+
+.section-4-bathroom-card {
+  background-image: url(../img/bathroom.png);
+}
+
+.section-4-bedroom-card {
+  background-image: url(../img/bedroom.png);
+}
+
+.section-4-basement-card {
+  background-image: url(../img/basement.png);
+}
+
+.section-4-room-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9rem;
+  text-shadow: 0px 20px 50px rgba(0, 0, 0, 0.4), 0px -20px 50px rgb(0, 0, 0, 0.4), 20px 0px 50px rgb(0, 0, 0, 0.4), -20px 0px 50px rgb(0, 0, 0, 0.4);
+  color: rgb(255, 255, 255);
+  grid-column: 1 / 3;
+  background-size: 110%;
+  background-position: -2rem;
+  /* opacity: 80%; */
+}
+
+/* .section-4-item-properties:last-child {
+  line-height: 7rem;
+} */
+
+.section-4-item-properties {
+display: flex;
+flex-direction: column;
+gap: 3rem;
+justify-content: left;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.price {
+  /* display: flex; */
+  text-align: center;
+  /* transform: rotate(10º); */
+}
+
+.items-name {
+  font-size: 4rem;
+  margin-top: 6rem;
+}
+
+.copyright {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
